@@ -2,9 +2,15 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link type="text/css" rel="stylesheet" href="css/main.css">	
+		<title><?php echo $config['title'] . ' - پشتیبانی'; ?></title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, maximum-scale=1.0">
+		<meta name="description" content="<?php echo $config['description']; ?>" />
+		<meta name="keywords" content="<?php echo $config['keywords']; ?>" />
+		<link type="image/x-icon" rel="icon" href="css/favicon.ico"/>
 		<meta name="viewport" content="width=device-width, maximum-scale=1.0">
 		<meta charset="UTF-8">
+		<link type="text/css" rel="stylesheet" href="css/main.css">	
 	</head>
 	<body>
 		<div class="header">
