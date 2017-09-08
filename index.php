@@ -93,7 +93,7 @@
 				<input type="text" name="data[cellphone]" value="">
 				<input type="text" name="data[email]" value="">
 				<input type="text" name="data[count]" value="1">
-				<input type="text" name="data[webserviceId]" value="">
+				<input type="text" name="data[webserviceId]" value="<?php echo $config['webserviceID']; ?>">
 				<input type="text" name="data[redirectUrl]" value="<?php echo $root . '/verify.php'; ?>">
 				<input type="text" name="data[issuer]" value="Mellat">
 				<input type="text" name="data[redirectToPage]" value="true">
